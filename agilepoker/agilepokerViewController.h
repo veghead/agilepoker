@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface agilepokerViewController : UIViewController
+{
+    IBOutlet UILabel *display;
+}
+
+- (IBAction)buttonPressed:(id)sender;
 
 @end
