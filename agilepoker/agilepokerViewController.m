@@ -46,5 +46,12 @@
     [display setText:[sender title]];
 }
 
+- (IBAction)clearPressed:(id)sender {
+    [display setText:@""];
+}
+
+- (IBAction)swagPressed:(id)sender {
+    [swagbox setHidden:(![swagbox isHidden])];
+}
 
 @end

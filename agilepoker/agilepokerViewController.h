@@ -11,8 +11,10 @@
 @interface agilepokerViewController : UIViewController
 {
     IBOutlet UILabel *display;
+    IBOutlet UILabel *swagbox;
 }
 
 - (IBAction)buttonPressed:(id)sender;
-
+- (IBAction)clearPressed:(id)sender;
+- (IBAction)swagPressed:(id)sender;
 @end
